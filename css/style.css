@@ -19,7 +19,7 @@ main {
     width: 870px;
     /* height: 679px; */
     padding: 30px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 hr {
@@ -67,4 +67,35 @@ hr {
 .player-name {
     margin-left: 16px;
     font-size: 18px;
+}
+
+/* blogs */
+.top-blogs {
+    margin-bottom: 30px;
+}
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+}
+
+.blog {
+    display: flex;
+    align-items: center;
+}
+
+.blog img {
+    width: 117px;
+    height: 117px;
+    margin-right: 20px;
+}
+
+.by {
+    color: gray;
+}
+
+article {
+    color: blueviolet;
 }
