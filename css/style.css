@@ -12,6 +12,9 @@ body {
 main {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
 }
 
 .container {
@@ -98,4 +101,36 @@ hr {
 
 article {
     color: blueviolet;
+}
+
+/* courses */
+.courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+}
+
+.course img {
+    width: 260px;
+    height: 105px;
+}
+
+.course-author {
+    color: #ED6B4F;
+}
+
+.yellow {
+    color: #FFC014;
+}
+
+.ratings {
+    color: #D1D1D1;
+}
+
+.clock {
+    float: right;
+    color: #FF4A60;
+    background: #FFE4E8;
+    padding: 10px;
+    border-radius: 50px;
 }
